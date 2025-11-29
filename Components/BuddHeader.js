@@ -8,16 +8,16 @@ class Header extends HTMLElement {
       <header>
         <nav>
             <ul>
-                <li><a class="link" href="/index.html">Homepage</a></li>
+                <li><a class="link" href="../index.html">Homepage</a></li>
                 <li><a class="link" href="../Brideshead.html">Brideshead Revisited</a></li>
                 <li><a class="link" href="../Pentiment.html">Pentiment</a></li>
-                <li><a class="link" href="/MyWork.html">My Work</a></li>
+                <li><a class="link" href="../MyWork.html">My Work</a></li>
                 <li><a class="link" href="/Durer.html">Dürer</a></li>
                 <li><a class="link" href="/BillyBudd.html">Billy Budd</a></li>
 
             </ul> 
         </nav>
-        <h1>Candle-Lit Scene | Awefull Ghosts</h1>
+        <h1>Candle-Lit Scene | Annotated Billy Budd</h1>
         <p>This site is a continuous work in progress!</p>
     </header>
     `;
