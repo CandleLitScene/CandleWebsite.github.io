@@ -104,6 +104,8 @@ div.wrapper {
     gap: 3.5rem;
 }
 
+span.small {font-variant-caps: small-caps;}
+
 div.intro {
     flex: 1;
 }
