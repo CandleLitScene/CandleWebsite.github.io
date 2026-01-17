@@ -6,6 +6,17 @@ a.link:visited, a.link:link {
     color: orange;
   }
 
+  a.asteriskLink:hover, a.asteriskLink:active {
+    font-size: larger;
+    text-decoration:solid   
+}
+
+a.asteriskLink:visited, a.asteriskLink:link {
+  font-size: larger;
+  color: orange;
+  text-decoration: solid;
+}
+
 body {
     font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
     margin: 0;
