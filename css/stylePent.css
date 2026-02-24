@@ -76,6 +76,11 @@ p.index {
     margin-right: 50%;
 }
 
+p.hanging {
+  padding-left: 22px ;
+  text-indent: -22px ;
+} 
+
 section.bib {
     text-align: center;
     text-align: left;
