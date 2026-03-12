@@ -18,7 +18,7 @@ class Header extends HTMLElement {
             </ul> 
         </nav>
         <h1>Candle-Lit Scene | Awefull Ghosts</h1>
-        <p>This site is a continuous work in progress!</p>
+        <p>Change is a constant and so I am constantly changing!</p>
     </header>
     `;
   }
