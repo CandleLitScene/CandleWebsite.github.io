@@ -83,6 +83,24 @@ img {
     width: 100%;
 }
 
+img.main {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 00px;
+width: 15%;
+}
+
+img.poem {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 00px;
+width: 60%;
+}
+
 div.profile {
     width: 100%;
     max-width: 150px;
@@ -162,6 +180,15 @@ section.images {
         margin-right: auto;
         text-align: center;
         width: 100%;
+      }
+
+      img.poem {
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      margin-bottom: 00px;
+      width: 90%;
       }
 } 
 
