@@ -92,6 +92,15 @@ margin-bottom: 00px;
 width: 15%;
 }
 
+img.link {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 00px;
+width: 15%;
+}
+
 img.poem {
   display: block;
 margin-left: auto;
@@ -190,6 +199,16 @@ section.images {
       margin-bottom: 00px;
       width: 90%;
       }
+
+      img.main {
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      margin-bottom: 00px;
+      width: 30%;
+      }
+
 } 
 
 @media only screen and (max-width: 409px) {
@@ -216,6 +235,15 @@ section.images {
         margin-right: auto;
         text-align: center;
         width: 120%;
+      }
+
+      img.main {
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      margin-bottom: 00px;
+      width: 90%;
       }
 
 }
