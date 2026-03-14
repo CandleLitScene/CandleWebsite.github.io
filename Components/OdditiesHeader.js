@@ -17,7 +17,7 @@ class Header extends HTMLElement {
 
             </ul> 
         </nav>
-        <h1>Candle-Lit Scene | Oddities</h1>
+        <h1>Candle-Lit Scene | Oddities & Observations</h1>
         <p>Change is a constant and so I am constantly changing!</p>
     </header>
     `;
