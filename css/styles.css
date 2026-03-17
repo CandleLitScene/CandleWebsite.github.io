@@ -145,6 +145,14 @@ section.images {
     width: 40%;
   }
 
+  .center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+  }
+
   .clouds {
     display: block;
     margin-left: auto;
