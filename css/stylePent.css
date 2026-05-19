@@ -63,6 +63,10 @@ hr {
     border-width: 4px;
 }
 
+s {
+  text-decoration-thickness: 1.5px;
+}
+
 section {
     background: white;
     color: black;
