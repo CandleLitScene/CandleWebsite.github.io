@@ -12,10 +12,10 @@ class Header extends HTMLElement {
                 <li><a class="link" href="../Brideshead.html">Brideshead Revisited</a></li>
                 <li><a class="link" href="../Pentiment.html">Pentiment</a></li>
                 <li><a class="link" href="/MyWork.html">My Work</a></li>
-               <li><a class="link" href="/Durer.html">Dürer</a></li>
+                <li><a class="link" href="/Durer.html">Dürer</a></li>
             </ul> 
         </nav>
-        <h1>Candle-Lit Scene | Goodbye to Berlin</h1>
+        <h1>Candle-Lit Scene | Vétilles</h1>
         <p>Change is a constant and so I am constantly changing!</p>
     </header>
     `;

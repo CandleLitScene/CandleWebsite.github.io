@@ -13,8 +13,6 @@ class Header extends HTMLElement {
                 <li><a class="link" href="../Pentiment.html">Pentiment</a></li>
                 <li><a class="link" href="/MyWork.html">My Work</a></li>
                 <li><a class="link" href="/Durer.html">Dürer</a></li>
-                <li><a class="link" href="/BillyBudd.html">Billy Budd</a></li>
-
             </ul> 
         </nav>
         <h1>Candle-Lit Scene | Oddities: Questionable Wikipedia Photos</h1>
