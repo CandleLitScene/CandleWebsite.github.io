@@ -1,0 +1,310 @@
+a.link:hover, a.link:active {
+    text-decoration: underline;
+}
+
+a.link:visited, a.link:link {
+    color: orange;
+  }
+
+  a.asteriskLink:hover, a.asteriskLink:active {
+    font-size: larger;
+    text-decoration:solid   
+}
+
+a.asteriskLink:visited, a.asteriskLink:link {
+  font-size: larger;
+  color: orange;
+  text-decoration: solid;
+}
+
+body {
+    font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+    margin: 0;
+    text-align: center;
+    text-align: left;
+    padding: 0;
+    font-size: 1.1em;
+
+}
+
+strong { font-weight: bold; }
+
+header {
+    background: black;
+    color: orange;
+    padding: 20px;
+    
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li.normal {
+  display:list-item;
+  margin-right: 20;
+}
+
+div {
+    margin: auto;
+
+}
+
+hr {
+    color: black;
+    margin: 0% 25%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style:ridge;
+    border-width: 5px;
+}
+
+s {
+  text-decoration-thickness: 1.5px;
+}
+
+section {
+    background: white;
+    color: black;
+    line-height: 1.8;
+    /* font-size: 1.25em; */
+}
+
+span.TOC {
+  /* text-align: center; */
+  font-size: 115%;
+
+}
+
+span.small {font-variant-caps: small-caps;}
+
+p.index {
+    margin-right: 50%;
+}
+
+p.hanging {
+  padding-left: 22px ;
+  text-indent: -22px ;
+} 
+
+section.bib {
+    text-align: center;
+    text-align: left;
+    margin: 0% 20%;
+}
+
+a.footnote:visited, a.footnote:link {
+    color: orange;
+  }
+span.blockspam {
+    display: none;
+  }
+
+footer {
+    background-color: black;
+    color: orange;
+    padding: 20px;
+    display: flex;
+    padding: 20px;
+}
+
+blockquote {
+  text-align: justify;
+}
+
+table, th, td {
+    text-align: center;
+    text-align: left;
+    border:1px solid black;
+    margin: 0% 10%;
+    border: none;
+  }
+
+  table.latin, th.latin, td.latin {
+    border: none;
+  }
+
+img {
+    width: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.lily {
+    width: 70%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.main {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+}
+
+img.gif {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 60%;
+}
+
+img.thumb {
+    width: 40%;
+  
+  }
+
+div.profile {
+    width: 100%;
+    max-width: 150px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+div.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3.5rem;
+}
+
+div.intro {
+    flex: 1;
+}
+
+section.images {
+    text-align: left;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+p.spoiler {
+    text-align: justify;
+    margin: 0% 25%;
+    line-height: 1.8;
+}
+
+p.index {
+    text-align: left;
+    margin: 0% 25%;
+    line-height: 1.8;
+}
+
+section.Pentfoot {
+    text-align: left;
+    margin: 0% 5%;
+    overflow-wrap: break-word
+}
+
+figcaption {
+    margin-left: 25%;
+  margin-right: 25%;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  
+
+
+    section.bib {
+        text-align: center;
+        text-align: left;
+        margin: 5%;
+    }
+
+    p.spoiler {
+        text-align: center;
+        text-align: left;
+        margin: 5%;
+    }
+
+
+    p.index {
+        margin-right: 0%;
+    }
+
+    section.brideshead-section.footnote {
+        overflow-wrap: break-word
+
+    }
+
+    img.thumb {
+        width: 80%;
+      
+      }
+} 
+
+@media only screen and (max-width: 500px) {
+
+    div.profile {
+        width: 100%;
+        max-width: 200px;
+        object-fit: cover;
+        vertical-align: middle;
+    }
+
+    figcaption {
+        margin-left: 5%;
+      margin-right: 5%;
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    img {
+        width: 90%;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    img.lily {
+        width: 100%;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    img.gif {
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+        width: 90%;
+    }
+
+    table, th, td {
+        text-align: top;
+        vertical-align: top;
+        border:1px solid black;
+        margin: 0% 10%;
+        border: none;
+      }
+
+      img.thumb {
+        width: 100%;
+      
+      }
+    
+}
